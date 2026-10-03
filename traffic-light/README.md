@@ -31,3 +31,7 @@ The Arduino turns the LEDs on and off in sequence using digital output pins.
 🔵 ON  →  🟢 ON  →  🔴 ON
   ↓        ↓        ↓
   ⏱️       ⏱️       ⏱️
+
+<img width="1863" height="1303" alt="Media" src="https://github.com/user-attachments/assets/57613b9f-f7f3-44ed-9fc1-96821d5d1f72" />
+<img width="1856" height="1309" alt="Media (2)" src="https://github.com/user-attachments/assets/989ed7e6-5217-4db8-bac9-4c008bd2f286" />
+<img width="1867" height="1300" alt="Media (1)" src="https://github.com/user-attachments/assets/dc70cb70-f2f4-4dce-95bb-fe79c2463125" />
