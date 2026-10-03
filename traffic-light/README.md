@@ -27,7 +27,7 @@ This was my first project where I controlled multiple LEDs independently and mad
 
 The Arduino turns the LEDs on and off in sequence using digital output pins.
 
-```text
+
 🔵 ON  →  🟢 ON  →  🔴 ON
   ↓        ↓        ↓
   ⏱️       ⏱️       ⏱️
