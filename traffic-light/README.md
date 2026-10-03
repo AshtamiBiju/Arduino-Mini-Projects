@@ -1,19 +1,17 @@
-# 🚦 Traffic Light with Arduino
+# 🚦 Traffic Light
 
-> 🚥 My first multi-LED Arduino project!
+A simple traffic light system built using an **Arduino Uno** and three LEDs.  
+My first Arduino mini project! 🔧✨
 
-A simple traffic light system built with an **Arduino Uno** and three LEDs.
-This was my first project where I controlled multiple LEDs independently and made them follow a sequence. 🎉
+## 🧰 Components
 
-## 🛠️ Components
-
-- 🟢 Green LED
-- 🔵 Blue LED
-- 🔴 Red LED
 - 🔌 Arduino Uno
-- 🧱 Breadboard
-- 🪢 Jumper wires
+- 🔵 Blue LED
+- 🟢 Green LED
+- 🔴 Red LED
 - 🛡️ 3 × Resistors
+- 🟫 Breadboard
+- 🔗 Jumper wires
 
 ## 🔌 Pin Connections
 
@@ -25,12 +23,29 @@ This was my first project where I controlled multiple LEDs independently and mad
 
 ## ⚙️ How It Works
 
-The Arduino turns the LEDs on and off in sequence using digital output pins.
+The Arduino controls the three LEDs using digital output pins.
 
+### 🚦 Light Sequence
 
-🔵 ON  →  🟢 ON  →  🔴 ON
-  ↓        ↓        ↓
-  ⏱️       ⏱️       ⏱️
+🔵 **Blue ON**  
+⬇️  
+🟢 **Green ON**  
+⬇️  
+🔴 **Red ON**  
+⬇️  
+🔄 **Repeat**
+
+Each LED stays on for a set amount of time before the Arduino switches to the next LED.
+
+## 🧠 What I Learned
+
+- 🔌 Connecting multiple LEDs to an Arduino
+- 🛡️ Using resistors with LEDs
+- 💻 Using `pinMode()`
+- ⚡ Using `digitalWrite()`
+- ⏱️ Using `delay()`
+- 🎛️ Controlling multiple digital outputs
+- 🚦 Building a simple traffic light sequence
 
 <img width="1863" height="1303" alt="Media" src="https://github.com/user-attachments/assets/57613b9f-f7f3-44ed-9fc1-96821d5d1f72" />
 <img width="1856" height="1309" alt="Media (2)" src="https://github.com/user-attachments/assets/989ed7e6-5217-4db8-bac9-4c008bd2f286" />
